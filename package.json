@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/kentcdodds/jest-tutorial/issues"
   },
-  "homepage": "https://github.com/kentcdodds/jest-tutorial#readme"
+  "homepage": "https://github.com/kentcdodds/jest-tutorial#readme",
+  "devDependencies": {
+    "jest-cli": "15.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
 }
