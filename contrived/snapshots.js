@@ -7,6 +7,7 @@ function makeSomeRequestAndGetSomeResponse() {
       name: 'Joe',
       id: '3423490',
       age: 32,
+      foo: 'bar',
       email: '123@example.com',
     })
   })
@@ -14,7 +15,6 @@ function makeSomeRequestAndGetSomeResponse() {
 
 function getFilteredStuff(filter) {
   return [
-    'I filter things',
     'You shall not pass',
     'Vacuums have filters',
     'I will not be filtered out',
@@ -23,5 +23,5 @@ function getFilteredStuff(filter) {
 }
 
 function MyComponent({name}) {
-  return <div><h1>Hello</h1> <strong>{`${name}!`}</strong></div>
+  return <div><h1>Hello</h1> there <strong>{`${name}!`}</strong></div>
 }
