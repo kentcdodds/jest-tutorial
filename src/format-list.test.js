@@ -11,4 +11,5 @@ test('can format a list', () => {
     ],
     'name'
   )
+  expect(formattedList).toMatchSnapshot()
 })
