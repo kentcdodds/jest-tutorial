@@ -1,0 +1,28 @@
+exports[`test arrays 1`] = `
+Array [
+  "I filter things",
+  "Vacuums have filters",
+  "I will not be filtered out"
+]
+`;
+
+exports[`test jsx 1`] = `
+<div>
+  <h1>
+    Hello
+  </h1>
+   
+  <strong>
+    John!
+  </strong>
+</div>
+`;
+
+exports[`test objects 1`] = `
+Object {
+  "age": 32,
+  "email": "123@example.com",
+  "id": "3423490",
+  "name": "Joe"
+}
+`;
