@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has toggle--off class applied by default 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #285f8f;
+}
+
+.glamor-0:hover,
+[data-glamor-0]:hover,
+.glamor-0:active,
+[data-glamor-0]:active,
+.glamor-0:focus,
+[data-glamor-0]:focus {
+  background-color: #285f8f;
+  border-color: #1d4567;
+}
+
+<button
+  class="glamor-0"
+  data-test="button"
+>
+  Toggle Me
+</button>
+`;
+
+exports[`has toggle--on class applied when initialToggledOn: true 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #22527b;
+  border-color: #173853;
+}
+
+.glamor-0:hover,
+[data-glamor-0]:hover,
+.glamor-0:active,
+[data-glamor-0]:active,
+.glamor-0:focus,
+[data-glamor-0]:focus {
+  background-color: #1d4567;
+  border-color: #122a3f;
+}
+
+<button
+  class="glamor-0"
+  data-test="button"
+>
+  Toggle Me
+</button>
+`;

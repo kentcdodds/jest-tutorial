@@ -19,7 +19,10 @@
   },
   "homepage": "https://github.com/kentcdodds/jest-tutorial#readme",
   "dependencies": {
-    "react": "15.6.1"
+    "glamorous": "^3.23.5",
+    "polished": "^1.3.0",
+    "react": "15.6.1",
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
     "babel-jest": "20.0.3",
@@ -27,12 +30,17 @@
     "babel-preset-env": "1.6.0",
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-2": "6.24.1",
+    "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.5.1",
     "jest": "20.0.4",
+    "jest-glamor-react": "^2.0.0-beta.0",
     "react-test-renderer": "15.6.1"
   },
   "jest": {
-    "testEnvironment": "node",
-    "collectCoverageFrom": ["src/*.js"],
+    "testEnvironment": "jsdom",
+    "collectCoverageFrom": [
+      "src/*.js"
+    ],
     "coverageThreshold": {
       "global": {
         "branches": 100,
