@@ -1,6 +1,10 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import {makeSomeRequestAndGetSomeResponse, getFilteredStuff, MyComponent} from './snapshots'
+import {
+  makeSomeRequestAndGetSomeResponse,
+  getFilteredStuff,
+  MyComponent,
+} from '../snapshots'
 
 test('objects', async () => {
   const httpResponse = await makeSomeRequestAndGetSomeResponse()

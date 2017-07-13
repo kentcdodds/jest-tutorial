@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "watch:test": "jest --watch"
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -18,18 +18,21 @@
     "url": "https://github.com/kentcdodds/jest-tutorial/issues"
   },
   "homepage": "https://github.com/kentcdodds/jest-tutorial#readme",
+  "dependencies": {
+    "react": "15.6.1"
+  },
   "devDependencies": {
-    "babel-jest": "15.0.0",
-    "babel-polyfill": "6.13.0",
-    "babel-preset-es2015": "6.14.0",
-    "babel-preset-stage-2": "6.13.0",
-    "jest-cli": "15.1.0"
+    "babel-jest": "20.0.3",
+    "babel-polyfill": "6.23.0",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "jest": "20.0.4",
+    "react-test-renderer": "15.6.1"
   },
   "jest": {
     "testEnvironment": "node",
-    "collectCoverageFrom": [
-      "src/*.js"
-    ],
+    "collectCoverageFrom": ["src/*.js"],
     "coverageThreshold": {
       "global": {
         "branches": 100,
@@ -38,10 +41,5 @@
         "statements": 25
       }
     }
-  },
-  "dependencies": {
-    "babel-preset-react": "6.11.1",
-    "react": "15.3.1",
-    "react-test-renderer": "15.3.1"
   }
 }

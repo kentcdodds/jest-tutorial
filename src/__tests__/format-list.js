@@ -1,4 +1,4 @@
-import formatList from './format-list'
+import formatList from '../format-list'
 
 test('can format a list', () => {
   const formattedList = formatList(

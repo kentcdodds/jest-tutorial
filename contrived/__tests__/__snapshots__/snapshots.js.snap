@@ -1,11 +1,13 @@
-exports[`test arrays 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`arrays 1`] = `
 Array [
   "Vacuums have filters",
-  "I will not be filtered out"
+  "I will not be filtered out",
 ]
 `;
 
-exports[`test jsx 1`] = `
+exports[`jsx 1`] = `
 <div>
   <h1>
     Hello
@@ -17,12 +19,12 @@ exports[`test jsx 1`] = `
 </div>
 `;
 
-exports[`test objects 1`] = `
+exports[`objects 1`] = `
 Object {
   "age": 32,
   "email": "123@example.com",
   "foo": "bar",
   "id": "3423490",
-  "name": "Joe"
+  "name": "Joe",
 }
 `;
